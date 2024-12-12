@@ -1,26 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+
+import React,(useState) from 'react'
+
+const App = () => {
+  const [task,setTask] = useState("");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >This is simhadri 4.0111
-        This is aravind 3.0rejnneri
-        This is simhadri 4.0
-        </a>dc
-      </header>
+    <div>
+      <center>
+        <div className="card">
+          <div className="card-body">
+          <h5 className="card-title">Todo Management Application</h5>
+           <form>
+            <input type="text" /> &nbsp; &nbsp;
+            <input type="submit" value="Add" name="Add" />
+           </form>
+          </div>
+
+        </div>
+      </center>
+      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
