@@ -14,7 +14,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >This is simhadri 3.0
+        >This is simhadri 4.0
         </a>dc
       </header>
     </div>
